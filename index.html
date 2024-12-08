@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonStay - Create Account</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo.png" alt="logo" class="logopic">
+            <img src="logotext.png" alt="logotext" class="logotext">        </div>
+        <nav class="nav">
+            <a href="#">About</a>
+            <a href="#">Language</a>
+            <a href="#" class="login-btn">Login</a>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="left-panel">
+            <div class="branding">
+                <img src="background.png" alt="background" class="background">
+            </div>
+        </div>
+        <div class="form-container">
+            <h2>Create Account</h2>
+            <form class="signup-form">
+                <p>Name</p>
+                <input type="text" placeholder="Enter your name" required>
+                <p>Email</p>
+                <input type="email" placeholder="name@gmail.com" required>
+                <p>Phone No</p>
+                <input type="tel" placeholder="With Country Code" required>
+                <p>Registration type</p>
+                <div class="radio-group">
+                    <label>
+                        <input style="margin-right: 10px; margin-left: 40px; padding:1rem;" type="radio" name="registrationType" value="host" required>
+                        Host
+                    </label>
+                    <label>
+                        <input style="margin-right: 10px" type="radio" name="registrationType" value="traveler" required>
+                        Traveler
+                    </label>
+                </div>
+                <p>Country</p>
+                <input type="text" placeholder="Country Name" required>
+                <p>Username</p>
+                <input type="text" placeholder="Username" required>
+                <p>Password</p>
+                <input type="password" placeholder="6+ characters" required>
+                <p class="terms">
+                    By signing up you agree to <a href="#">terms and conditions</a> at MonStay.
+                </p>
+                <button type="submit" class="register-btn">Register</button>
+            </form>
+            <p class="login-link">Already have an account? <a href="#">Login</a></p>
+        </div>
+    </main>
+</body>
+</html>
