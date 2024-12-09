@@ -1,0 +1,127 @@
+/* General Footer Styling */
+footer {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 100px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+  }
+  
+  /* Footer Left Section */
+  .footer-left {
+    flex: 1;
+  }
+  
+  .logo {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2e3cff;
+  }
+  
+  .footer-left p {
+    margin-top: 5px;
+    color: #777;
+    font-size: 14px;
+  }
+  
+  /* Footer Middle Section */
+  .footer-middle ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  .footer-middle{
+    flex: 1;
+  }
+  .footer-middle a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-middle a:hover {
+    color: #2e3cff;
+  }
+  
+  /* Footer Right Section */
+  .footer-right {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .footer-right h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .social-links {
+    list-style: none;
+    margin-left: 100px;
+  }
+  
+  .social-links li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .social-links img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #2e3cff;
+  }
+  
+  /* Footer Bottom Section */
+  .footer-bottom {
+    background-color: #2e3cff;
+    color: #fff;
+    text-align: center;
+    padding:  0;
+    font-size: 12px;
+  }
+  #footer-text{
+    margin-left: 50px;
+  }
+  #copyright{
+    margin: 0;
+  }

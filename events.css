@@ -1,0 +1,124 @@
+.address{
+    color: #5689F0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtitle{
+    margin-top: 0px;
+}
+h2{
+    margin-bottom: 8px;
+}
+.title{
+    display: inline-block;
+    vertical-align: top;
+}
+.left-side{
+    display: inline-block;
+    flex: auto;
+}
+.right-side{
+    display: inline-block;
+    vertical-align: top;
+    flex-wrap: wrap;
+}
+.title-right{
+    display: inline-block;
+}
+.title-left{
+    display: inline-block;
+    width: 950px;
+}
+
+.filter-icon{
+    padding-left:10px ;
+    height: 15px;
+}
+p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.traveler-pic{
+    display: inline-block;
+    padding: 20px;   
+}
+.profile-pic{
+    width: 250px;
+}
+.text-info{
+    display: inline-block;
+    vertical-align: top;
+}
+.traveler-info{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #EFEFEF ;
+    margin-bottom: 20px;
+}
+.user-name{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.row-text-info{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+}
+
+.see-detail-btn:hover{
+    background-color: rgb(73, 103, 255);
+    border-color: rgb(73, 103, 255);
+}
+
+.see-detail-btn{
+    color: white;
+    background-color: #3252DF;
+    border-radius: 8px;
+    border-color: #3252DF;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.btn-text{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h2{
+    color: #173660;
+    font-size: 28px;
+}
+.event{
+    width: 300px;
+    background-color:#EFEFEF;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 200px;
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 200px;
+}
+h3{
+    padding-left: 25px;
+    margin-top: 0px;
+    text-align: center;
+}
+.event-text{
+    text-align: center;
+    border-style: solid;
+    border-right: 0px ;
+    border-left: 0px ;
+    border-bottom: 0px ;
+    border-color: gray;
+    padding-top: 10px;
+}
+#date{
+    text-align: center;
+}
+main{
+    padding-left: 30px;
+}
