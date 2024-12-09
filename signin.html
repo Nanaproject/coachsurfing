@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MonStay - Create Account</title>
+    <title>MonStay - Login</title>
     <link rel="stylesheet" href="signin.css">
 </head>
 <body>
     <header class="header">
         <div class="logo-container">
             <img src="logo.png" alt="logo" class="logopic">
-            <img src="logotext.png" alt="logotext" class="logotext">        </div>
+            <img src="logotext.png" alt="logotext" class="logotext">
+        </div>
         <nav class="nav">
             <a href="#">About</a>
             <a href="#">Language</a>
@@ -25,11 +26,17 @@
         </div>
         <div class="form-container">
             <h2>Login Account</h2>
-            <form class="signup-form">
+            <form class="signup-form" action="signin.php" method="POST">
                 <p>Username</p>
-                <input type="text" placeholder="Username" required>
+                <input type="text" name="username" placeholder="Username" required>
                 <p>Password</p>
-                <input type="password" placeholder="6+ characters" required>
+                <input style="margin-bottom: 10px;" type="password" name="password" placeholder="6+ characters" required>
+                <div class="remember-forgot">
+                    <label class="remember-me">
+                        <input style="padding-right: 5px;" type="checkbox" name="remember"> Remember Me
+                    </label>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
                 <p class="terms">
                     By signing up you agree to <a href="#">terms and conditions</a> at MonStay.
                 </p>
@@ -41,8 +48,9 @@
                 </div>
             </form>
             <p class="login-link">Don't you have an account?</p>
-            <button type="submit" class="join-btn">Join</button>
+            <button type="button" class="join-btn">Join</button>
         </div>
     </main>
+    <script src="signin.js"></script>
 </body>
 </html>
