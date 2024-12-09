@@ -19,6 +19,7 @@ body{
     border-right: 0px;
     border-left: 0px;
     background-color: white;
+    z-index: 100;
 }
 
 .logo{
