@@ -64,6 +64,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 30px;
+    
 }
 
 .zuun-deed{
@@ -89,6 +90,11 @@
 .columns img{
     border-radius: 10px;
 }
+.columns img:hover{
+    transform: scale(1.02);
+    z-index: 2;
+}
+
 .title-grid{
     margin-top: 80px;
 }
@@ -159,6 +165,10 @@
     vertical-align: top;
     margin-top: 70px;
   }
+  .landscape:hover{
+    transform: scale(1.02);
+    z-index: 2;
+}
 
 .landscape img{
     width: 100%;
@@ -337,3 +347,8 @@ h2{
     border-right: 0;
     padding-bottom: 50px;
 }
+.baruun img:hover{
+    transform: scale(1.02);
+    z-index: 2;
+}
+
